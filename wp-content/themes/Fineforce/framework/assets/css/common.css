@@ -1,0 +1,234 @@
+/*
+ * ----------------------------------------------------------------------------
+ * common.css aims to bring together the various re-used items from each theme
+ *
+ * - TF Basics (left, right, clearfix, etc.)
+ * - Social & Integrations
+ * ----------------------------------------------------------------------------
+*/
+
+
+/* `Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+
+/* http://sonspring.com/journal/clearing-floats */
+
+.clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+/* http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
+
+.clearfix:before,
+.clearfix:after {
+    content: '\0020';
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+  The following zoom:1 rule is specifically for IE6 + IE7.
+  Move to separate stylesheet if invalid CSS is a problem.
+*/
+
+.clearfix {
+    zoom: 1;
+}
+
+/* basics */
+
+    .clearfix:after {
+        visibility: hidden;
+        display: block;
+        font-size: 0;
+        content: " ";
+        clear: both;
+        height: 0;
+    }
+    * html .clearfix             { zoom: 1; } /* IE6 */
+    *:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+    .left {float:left;}
+    .right {float:right;}
+
+    strong {font-weight:bold;}
+    em {font-style:italic;}
+
+/* yelp */
+
+    #yelpbar {
+        height:40px;
+        width:100%;
+        background-color: #fff;
+        border-bottom: 2px solid #c41200;
+        text-align:center;
+    }
+
+    #yelpcontent {
+        display: inline-block;
+        padding-top:5px;
+        height:30px;
+        margin:0 auto;
+    }
+
+    .yelptext {
+        float:left;
+        padding:5px 0 0 0;
+        margin-right:7px;
+        color:#5f5f5f;
+        font-family: Georgia, Times, 'Times New Roman', serif;
+        font-size:14px;
+        font-style:italic;
+        height:30px;
+    }
+
+    .yelpimg {
+        float:left;
+        height:30px;
+        margin-right:7px;
+    }
+
+    #yelpcontent a {
+        color:#c41200;
+    }
+
+@media screen and (max-width: 480px) {
+
+    #yelpbar a {text-decoration:none;}
+    .yelptext {display:none;}
+
+}
+
+/* open table */
+
+#opentablebar {
+    background-color: #fff;
+    height:47px;
+    width:100%;
+    position:relative;
+    z-index:999999;
+    border-bottom: 2px solid #c41200;
+    text-align:center;
+}
+
+#opentablebar-center {
+    width:870px;
+    margin:0 auto !important;
+    display:inline-block !important;
+}
+
+@media screen and (max-width: 480px) {
+
+    #opentablebar {dispay:none!important;}
+
+}
+
+/* localina */
+
+#localinabar {
+    background-color: #fff;
+    height:45px;
+    line-height:45px;
+    width:100%;
+    position:relative;
+    z-index:999999;
+    text-align:center;
+    -webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.3);
+}
+
+#localinabar-center {
+    width:80%;
+    margin:0 auto !important;
+    display:inline-block !important;
+}
+
+
+/* qype */
+
+    #qypebar {
+        background-color: #fff;
+        height:40px;
+        width:100%;
+        z-index:999;
+        border-bottom: 3px solid #fe0033;
+        text-align:center;
+    }
+
+    #qypecontent {
+        display: inline-block;
+        padding-top:5px;
+        height:30px;
+        margin:0 auto;
+    }
+
+    .qypetext {
+        float:left;
+        padding:5px 0 0 0;
+        margin-right:7px;
+        color:#5f5f5f;
+        font-family: Georgia, Times, 'Times New Roman', serif;
+        font-size:14px;
+        font-style:italic;
+        height:30px;
+    }
+
+    .qypeimg {
+        float:left;
+        height:30px;
+        margin-right:7px;
+    }
+
+    #qypecontent a {
+        color:#fe0033;
+    }
+
+@media screen and (max-width: 480px) {
+
+    .qypetext {display:none;}
+
+}
+
+/* open dining */
+
+    .opendining-mobile {
+        text-align:center;
+        margin-bottom:10px;
+        padding: 5px 0;
+        color:#ffffff !important;
+        -webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;
+        background-color: rgb(249,0,0);
+        background: -moz-linear-gradient(top,  rgba(249,0,0,1) 0%, rgba(199,14,14,1) 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(249,0,0,1)), color-stop(100%,rgba(199,14,14,1)));
+        background: -webkit-linear-gradient(top,  rgba(249,0,0,1) 0%,rgba(199,14,14,1) 100%);
+        background: -o-linear-gradient(top,  rgba(249,0,0,1) 0%,rgba(199,14,14,1) 100%);
+        background: -ms-linear-gradient(top,  rgba(249,0,0,1) 0%,rgba(199,14,14,1) 100%);
+        background: linear-gradient(top,  rgba(249,0,0,1) 0%,rgba(199,14,14,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f90000', endColorstr='#c70e0e',GradientType=0 );
+    }
+
+    .opendining-mobile a {
+            color:#ffffff !important;
+            text-shadow:0px -1px 0px rgba(0,0,0,0.2);
+            font-weight:bold;
+    }
+
+@media screen and (max-width: 480px) {
+
+    #odn-order-now {dispay:none!important;}
+    .opendining-mobile {dispay:block!important;}
+
+}

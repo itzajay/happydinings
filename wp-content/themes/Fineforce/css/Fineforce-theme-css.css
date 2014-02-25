@@ -1,0 +1,79 @@
+/*==========================================================================================
+
+Colors - Array Loop via Color Picker
+
+==========================================================================================*/
+
+
+
+    .entry-meta, .fine a, .fine a, h3.widget-title, .nav-primary a:hover, .nav-primary li:hover ul li a:hover, .menu-title, h2.full-menu, .fs-tips-item strong, h3.widget-title, .fineforce-title, .required, h2.full-menu { color : #f14a00 }
+
+    
+    .full-events .thumb img,.full-menu .thumb img { border-color : #f14a00 }
+
+    
+
+
+    html #wrap,.comment-meta a time { color : #858585 }
+
+    
+
+
+    input#searchsubmit,input#submit { color : #3d3d3d }
+
+    
+    #comments li li.comment,#comments li,textarea, input[type=text] { background-color : #3d3d3d }
+
+    
+
+
+    .nav-primary li:hover > ul li a { color : #000000 }
+
+    
+    #footer-wrap,#navigation-wrap,#comments .reply,.header-wrap { background-color : #000000 }
+
+    
+    .header-wrap, #main-wrap { border-color : #000000 }
+
+    
+
+
+    .nav-primary a,.sec-footer-outer #wrap a, #wrap h1, #wrap h2, #wrap h3, #wrap h4, #wrap h5, #wrap h6,.entry-content blockquote,textarea, input[type=text],.full-events .title .eventtext,.events-widget .eventitem,.feat-events .eventtitle,.extrasizes strong,.rightbox,.events-single-meta span,.events-single-meta time,.full-menu .title,.mid-menu .title,.mid-menu .rightbox,.small-menu .title,.fs-tips-quote,.openingtimes,.openitem{ color:#ffffff; }
+
+    
+    .nav-primary li:hover > ul { background-color : #ffffff }
+
+    
+    .feat-events .thumb { border-color : #ffffff }
+
+    
+    .full-menu .thumb img { outline-color : #ffffff }
+
+    
+
+/*==========================================================================================
+	
+Colors generated here are pulled in from the 'Theme Options' within the Dashboard
+
+==========================================================================================*/
+
+
+.full-events .event-thumb {
+background-color:rgba(61, 61, 61,0.2);
+}
+
+.full-events {
+border-color:rgba(61, 61, 61,0.4);
+}
+
+.full-events .event-thumb img {
+border-color:rgba(241, 74, 0,0.4);
+}
+
+ul#twitter_update_list li:first-child {
+border-top: 1px solid rgba(241, 74, 0,0.1);
+}
+
+ul#twitter_update_list li {
+border-bottom: 1px solid rgba(241, 74, 0,0.1);
+}

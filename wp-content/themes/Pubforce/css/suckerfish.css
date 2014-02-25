@@ -1,0 +1,129 @@
+/***** DROP DOWN MENU ******/
+
+.sf-menu,.menu, .sf-menu * {
+    margin:            0;
+    padding:        0;
+    list-style:        none;
+}
+.sf-menu,.menu {
+    line-height:    1.0;
+}
+.sf-menu ul {
+    position:        absolute;
+    top:            -999em;
+}
+.sf-menu ul li {
+    min-width:120px;
+    border-bottom: 1px solid;
+    text-shadow:none;
+    font-size:12px;
+}
+.sf-menu li:hover {
+    visibility: inherit; /* fixes IE7 'sticky bug' */
+}
+.sf-menu li {
+    float:            left;
+    position:        relative;
+    font-size: 18px;
+    padding: 0px 6px 0px 30px;
+    text-shadow: 1px 1px 1px #000;
+}
+.sf-menu li,.menu li {
+    float:            left;
+    position:        relative;
+    font-size: 18px;
+    padding: 0px 6px 0px 30px;
+    text-shadow: 1px 1px 1px #000;
+}
+.sf-menu a {
+    display:        block;
+    position:        relative;
+}
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+    left:            0;
+    top:            2.5em; /* match top ul list item height */
+    z-index:        99;
+}
+ul.sf-menu li:hover li ul,
+ul.sf-menu li.sfHover li ul {
+    top:            -999em;
+}
+ul.sf-menu li li:hover ul,
+ul.sf-menu li li.sfHover ul {
+    left: 100%;
+    top:            0;
+}
+ul.sf-menu li li:hover li ul,
+ul.sf-menu li li.sfHover li ul {
+    top:            -999em;
+}
+ul.sf-menu li li li:hover ul,
+ul.sf-menu li li li.sfHover ul {
+    top:            0;
+}
+
+/*** Theme skin ****************************/
+.sf-menu,.menu {
+    float:left;
+    padding-top: 18px;
+}
+.sf-menu  A,.menu  A
+{
+    color: #ffd172;
+    text-decoration: none;
+}
+.sf-menu  A:hover,.menu  A:hover
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+.sf-menu li {
+}
+.sf-menu li li {
+    background: #293324;
+    padding: 15px 15px 15px 15px;
+    font-size: 14px;
+    border-bottom: solid 1px #ffd172;
+}
+
+
+.sf-menu li li:first-child {
+	background-image: url('../images/dropdown-bg.png');
+	background-repeat: repeat-x;
+	background-position: 0px 0px;
+}
+
+.sf-menu li li:last-child {
+	border-bottom: none;
+	-webkit-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.sf-menu li li li {
+}
+.sf-menu li:hover, .sf-menu li.sfHover,
+.sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
+    color: white;
+}
+.sf-menu ul {
+    background: #293324;
+}
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+
+}
+.sf-menu > li:hover > ul,
+.sf-menu > li.sfHover > ul {
+	left: 30px;
+    top: 20px !important;
+    padding-top:19px;
+    background:none;
+}
+.sf-menu ul ul {
+    margin-top:0;
+}

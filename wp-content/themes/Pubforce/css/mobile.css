@@ -1,0 +1,440 @@
+@media screen and (max-width: 480px) {
+
+    /*----- DISPLAY NONE -----*/
+
+
+
+    /*----- TYPOGRAPHY -----*/
+
+    body {background-image:none !important; font-size:12px !important;}
+    h1, h2, h3, h4, h5, h6, p, #nav-main, body {font-family:sans-serif !important;}
+    p {width:auto;}
+    #main H1{font-size:20px;font-weight:600;margin-bottom:5px}
+    #main H2{font-size:16px}
+    #main H3{font-size:14px}
+
+    /*----- CONTAINER -----*/
+
+    .outer-wrapper{width:100%;margin: 0 auto;}
+    
+    #main img {max-width:100% !important}
+    
+    #main{width:96% !important;margin:0 !important;padding:10px 2% 10px 2% !important;background:url(images/paper-bg.jpg) repeat 0px 0;}
+
+    #sidebar-wrap{width:100%;position:static;padding:0;}
+
+    #main-sidebar {width:96% !important ;margin:0 !important; padding:0 2% !important;}
+
+
+    /*----- ALT. STANDARD LAYOUT (RIGHT LAYOUT) -----*/
+
+    .right-layout #main{width:100%;background:url(images/paper-bg.jpg) repeat-y;}
+    .right-layout #sidebar-wrap{width:100%;position:relative;}
+
+    /*----- LAYOUT BLOCK : HEADER -----*/
+
+    #header-address{display:none}
+    #header-mobile{display:block !important;}
+    #header-mobile-mat {background-image:url(images/mobile/header-bg.gif); position:static;width:175 !important;max-width:175px;height:175px !important; padding:5px;margin:10px auto;-webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 1px 3px 1px #000000;
+    -moz-box-shadow: 0px 1px 3px 1px #000000;
+    box-shadow: 0px 1px 3px 1px #000000;}
+    #header-address{font-size:14px;height:29px;padding:30px 0 0 30px;}
+    #header {display:none;}
+        
+    /*----- LAYOUT BLOCK : HEADER/LOGO -----*/
+
+    .logo-section-mobile {display:block !important;position:static;width:165px;height:145px;margin:0 auto 0 auto;}
+    .logo-section-mobile a {display:block;width:165px;height:145px;}
+    .logo-section {display:none !important}
+    .logo-section-mobile #logo-mobile {display:block !important;width:165px;height:145px;margin-top:20px;}
+
+    /*----- LAYOUT BLOCK : HEADER/SLIDER -----*/
+
+       /*
+    .slider-section, #blackboard-btn {display:none;}
+    #main-sidebar {width:100%}
+    */
+    /*----- BLACKBOARD -----*/
+
+    #blackboardwrap {
+        background: url(images/mobile/blackboard-bg2.gif) repeat;
+        margin-bottom:20px;
+    }
+
+    #blackboard {
+        position:relative;
+    }
+
+    #blackboard-top {
+        width: 100%;
+        height: 16px;
+        background: url(images/mobile/blackboard-bg.jpg) repeat-x;
+        -webkit-box-shadow: 0px 0px 3px 0px #000000;
+        -moz-box-shadow: 0px 0px 3px 0px #000000;
+        box-shadow: 0px 0px 3px 0px #000000;
+    }
+
+    #blackboard-content {
+        padding: 0px 10px 20px 10px;
+        position: relative;
+        top: 0px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    #blackboard-content h3 {
+        font-size:16px;
+        margin-bottom:10px;
+    }
+
+    #blackboard-content .widget {
+        margin-top:10px;
+    }
+
+    #blackboard-bottom {
+        position: static;
+        width: 100%;
+        height: 16px;
+        background: url(images/mobile/blackboard-bg.jpg) repeat-x;
+    }
+
+    #stayinformed {
+        display:none;
+    }
+
+
+    /*----- NAV -----*/
+    
+    #nav-wrap{background:none;height:auto;}
+    #nav-rope{display:none}
+    /*
+    .sf-menu {padding:0px;}
+    .sf-menu ul {width:100%;text-align:center;}
+    .sf-menu li {display:inline;list-style: none;font-size:14px;font-weight:800;padding:10px;line-height:14px;text-align:center;margin:0 auto}
+    .sf-menu ul ul {display:inline;list-style: none;}
+    */
+    
+    #nav-main {display:none}
+    #nav-main-mobile{display:block !important;text-align:center;}
+    #nav-main-mobile select {
+        margin:10px auto;
+        padding:2px;
+    }
+
+    /*R*/
+    .right-layout #nav-rope {display:}
+    /*R*/
+
+    #nav-main{position:relative;right:0;bottom:0;padding-top:0px;height:auto;background:none;}
+    /*R*/
+    .right-layout #nav-main {padding-left:275px;}
+    /*R*/
+
+    /*----- LAYOUT BLOCK : MAIN (PAPER STYLING) -----*/
+
+
+    #papercurl{display:none}
+    #paper{min-height:0;padding:0;}
+    .paper-bottom{display:none;}
+    
+    #footer, .sec-footer-outer {display:none}
+    
+    
+    /*----- MENU -----*/
+
+    .full-menu {
+        margin-bottom:10px;
+    }
+
+    h2.full-menu {
+        font-family:sans-serif !important;
+        font-size:16px !important;
+        padding-bottom:8px;
+        margin-top:10px;
+        margin-bottom:12px;
+        font-weight:bold;
+        border-bottom:2px solid #394831;
+    }
+
+    .full-menu .thumb {
+        display:none;
+    }
+
+    .full-menu .text {
+        margin-left:0px;
+        width:100%;
+    }
+
+    .full-menu .thumb-text {
+        margin-left:0px;
+        width:100%;
+        min-height:0px;
+    }
+
+    .full-menu .title {
+        font-family:sans-serif !important;
+        display:block;
+        line-height:15px;
+        height:18px;
+        font-size: 12px;
+        background: url(images/dot.png) repeat-x 0px 0px;
+    }
+
+    .full-menu .title .left {
+        height:inherit;
+        float:left;
+        padding-right:5px;
+        line-height:23px;
+        background: url(images/dotoff.png) repeat-x 0px 0px;
+    }
+
+    .full-menu .title .right{
+        height:inherit;
+        float:right;
+        text-align:right;
+        line-height:23px;
+        padding-left:5px;
+        background: url(images/dotoff.png) repeat-x 0px 0px;
+    }
+
+    .full-menu .desc {
+        margin-top:8px;
+        line-height:20px;
+        font-size:11px;
+        width:100%;
+    }
+
+    .full-menu .extrasizes {
+        background: url(images/menu-arrow.png) no-repeat 0px -3px;
+        margin-top:5px;
+        padding-left:30px;
+        height:20px;
+        width:70%;
+        font-size:12px;
+    }
+
+    .full-menu .extrasizes strong {
+        padding-left:5px;
+    }
+
+    /*----- MID MENU -----*/
+
+    .mid-menu {
+        float:left;
+        margin: 0 0 10px 0;
+        padding:0px;
+        width:100%;
+    }
+
+    .mid-menu .leftbox {
+        float:left;
+        width:50%;
+    }
+
+    .mid-menu .title {
+        font-family:sans-serif !important;
+        height:18px;
+        background: url(images/dot.png) repeat-x 0px 0px;
+    }
+
+    .mid-menu .left {
+        height:auto;
+        font-size: 12px;
+        padding-right:0px;
+        background: url(images/dotoff.png) repeat-x 0px 0px;
+        line-height:23px;
+    }
+
+    .mid-menu .desc {
+        margin-top:8px;
+        line-height:20px;
+        padding-right:10px;
+        font-size:11px;
+    }
+
+    .mid-menu .rightbox {
+        font-size: 12px;
+        width:50%;
+        line-height:20px;
+        float:right;
+        clear:right;
+        margin-bottom:3px;
+        background: url(images/dot.png) repeat-x 0px 0px;
+    }
+    .mid-menu .rightbox .size {
+        height:18px;
+        overflow:hidden;
+        max-width:145px;
+        padding: 0 0px 0 0px;
+        line-height:23px;
+        float:left;
+        background: url(images/dotoff.png) repeat-x 0px 0px;
+    }
+    .mid-menu .rightbox .price {
+        height:18px;
+        font-size: 12px;
+        padding-left:0px;
+        float:right;
+        text-align:right;
+        line-height:23px;
+        background: url(images/dotoff.png) repeat-x 0px 0px;
+    }
+
+    /*----- SMALL MENU -----*/
+
+    .small-menu {
+        width:100%;
+        margin-bottom:0px;
+        display:block;
+    }
+
+    .small-menu .leftbox {
+        float:left;
+        width:50%;
+    }
+
+    .small-menu .title {
+        display: block;
+        width:auto;
+        padding: 0 0 5px 0;
+        background: url(images/dot.png) repeat-x 0px 0px;
+    }
+
+    .small-menu .lefttext {
+        display: inline-block;
+        line-height:23px;
+        min-height:18px;
+        padding-right:5px;
+        font-style:italic;
+        font-size: 12px;
+        background: url(images/dotoff.png) repeat-x 0px 0px;
+    }
+
+    .small-menu .desc {
+        float:left;
+        line-height:20px;
+        font-size:11px;
+    }
+
+    .small-menu .rightbox {
+        height:18px;
+        font-size: 12px;
+        width:50%;
+        float:right;
+        clear:right;
+        margin-bottom:3px;
+        background: url(images/dot.png) repeat-x 0 0;
+    }
+    .small-menu .rightbox .size {
+        height:18px;
+        max-width:none;
+        padding: 0 5px 0 5px;
+        overflow:hidden;
+        line-height:23px;
+        float:left;
+        background: url(images/dotoff.png) repeat-x 0 0;
+    }
+    .small-menu .rightbox .price {
+        float:right;
+        height:18px;
+        font-size: 12px;
+        padding-left:5px;
+        text-align:right;
+        line-height:23px;
+        background: url(images/dotoff.png) repeat-x 0 0;
+    }
+    
+    /*----- FEAT-EVENT LIST -----*/
+
+    .feat-events {
+        margin-bottom:10px;
+    }
+
+    .feat-events .thumb {
+        display:none;
+    }
+
+    .feat-events .thumb-text {
+        padding:0px;
+        margin: 0px 0px 0px 0px;
+        width:100%;
+    }
+
+    .feat-events .text {
+        padding:0px;
+        margin: 0px 0px 0px 0px;
+        width:100%;
+    }
+
+
+    .feat-events .eventtitle {
+        display:block;
+        margin-top:10px;
+        text-shadow: 0 1px 0px #fff;
+        font-style:italic;
+        height:auto;
+        font-size: 14px;
+        color: #20211e;
+    }
+
+    .feat-events .time {
+        margin-top:8px;
+        display:block;
+        text-shadow: 0 1px 0px #fff;
+        font-style:italic;
+        height:auto;
+        font-size: 14px;
+        text-align:left;
+    }
+
+    .feat-events .desc {
+        margin-top:8px;
+        display:block;
+        line-height:26px;
+        font-size:11px;
+        color:#6f6756;
+    }
+
+    .feat-events .desc p {
+        margin:0px !important;
+        padding:0px !important;
+    }
+
+    /*----- FULL EVENT LIST -----*/
+
+    .full-events {
+        padding:10px 0;
+    }
+
+    .full-events .event-thumb {
+        top:10px;
+    }
+
+    .full-events .datetime {
+        padding-top: 0px;
+    }
+
+
+    .full-events .event-text {
+        padding-left: 95px;
+    }
+
+    /*--- OTHER ---*/
+    
+    .mobile-phone {
+        display:block !important;
+        width:100%;
+        text-align:center;
+        padding:5px 0px;
+        font-size:14px;
+        line-height:24px;
+    }
+    
+    img{max-width:100%;}
+    
+    #tf-comment {display:none;}
+    #odn-order-now {display:none !important;}
+}

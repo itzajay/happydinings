@@ -1,0 +1,165 @@
+.tf-slides-page .tf-options-page {
+    width: 722px;
+}
+#tf-slides-list {
+    background: none repeat scroll 0 0 #DDDDDD;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2) inset;
+    list-style: none outside none;
+    padding: 10px;
+}
+#tf-slides-list li {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC !important;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    cursor: default;
+    margin: 0 0 10px;
+    overflow: auto;
+    padding: 10px;
+    position: relative;
+    width: 680px;
+}
+.tf-settings-wrap {
+    background: none repeat scroll 0 0 #ECECEC;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 2px 3px 0 #9E9E9E;
+    padding: 10px 20px;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+.form-table {
+    border-collapse: collapse;
+    clear: both;
+    margin-bottom: -8px;
+    margin-top: 0.5em;
+    width: 100%;
+}
+.form-table th, .form-wrap label {
+    color: #222222;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+.form-table th {
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+    width: 200px;
+}
+.form-table th, .form-wrap label {
+    font-weight: normal;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+.form-table td {
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 9px;
+    padding: 8px 10px;
+}
+.tf-major, input.tf-major, input.tf-major[type="button"], input.tf-major[type="submit"] {
+    background-color: #FF7200;
+    background-image: -moz-linear-gradient(center top , #FFA533, #FF7200);
+    background-repeat: repeat-x;
+    border-color: #FF7200 #FF7200 #B35000;
+    border-style: solid;
+    border-width: 1px;
+    color: #FFFFFF !important;
+    display: inline-block !important;
+    line-height: 14px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+}
+#tfslider_image-browse-button{
+    float: left;
+    position: absolute;
+}
+.select-file-btn{
+    background: none repeat scroll 0% 0% rgb(236, 236, 236);
+    position: relative;
+}
+.upload_slides{
+    position:relative;
+    float:right;
+}
+#upload-slide {
+    height: 27px;
+    left: -90px;
+    opacity: 0;
+    position: relative;
+    text-align: right;
+    top: 0;
+    z-index: 2;
+}
+#tf-slides-list .slide-thumbnail {
+    background-color: #666666;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: 1px solid #DFDFDF !important;
+    border-radius: 5px 5px 5px 5px;
+    display: block;
+    height: 180px;
+    overflow: hidden;
+    position: relative;
+    width: 678px;
+}
+.slide-change-image {
+    bottom: 1px;
+    position: absolute;
+    right: 8px;
+}
+#tf-above-editor-insert-area {
+    background: none repeat scroll 0 0 #F3F3F3;
+    border: 1px solid #E3E3E3;
+    border-radius: 5px 5px 5px 5px;
+    clear: both;
+    font-size: 11.5px;
+    line-height: 10px;
+    margin-bottom: 15px;
+    min-height: 32px;
+    overflow: auto;
+    padding: 10px 10px 10px 50px;
+    position: relative;
+}
+#tf-above-editor-insert-area strong {
+    float: left;
+    height: 36px;
+    left: 10px;
+    line-height: 36px;
+    position: absolute;
+    top: 10px;
+}
+#tf-above-editor-insert-area a {
+    color: #666666;
+    margin-left: 15px;
+    text-decoration: none;
+}
+#tf-above-editor-insert-area img {
+    margin-right: 5px;
+}
+.tf-inlinemce span, .tf-inlinemce img {
+    display: inline-block !important;
+    float: left;
+    height: 16px;
+}
+#tf-above-editor-insert-area #menu-menu-id-wrap {
+    float: left;
+    overflow: auto;
+    padding: 10px 0;
+}
+input.tf-button[type="button"], .tf-button {
+    background: -moz-linear-gradient(center top , #FFFFFF 0%, #FFFFFF 9%, #E8E8E8 100%) repeat scroll 0 0 transparent;
+    border: 1px solid #CFCFCF;
+    border-radius: 5px 5px 5px 5px;
+    color: #7F7F7F;
+    display: inline-block !important;
+    font-size: 15px;
+    font-weight: bold;
+    height: auto !important;
+    line-height: 15px;
+    margin: 1px;
+    padding: 7px 14px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #FFFFFF;
+    white-space: pre;
+    width: auto !important;
+}
+#tf-above-editor-insert-area a.tf-button.hidden {
+    display: none !important;
+}

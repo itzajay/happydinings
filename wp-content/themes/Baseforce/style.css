@@ -1,0 +1,103 @@
+/*
+Theme Name: Basetheme
+Theme URI: http://happydinings.com/
+Author: Happy Dinings
+Author URI: http://happydinings.com/
+Description: base theme for happy dinings
+Version: 1.0
+Tags:  two-columns, fixed-width
+*/
+
+/* slider image */
+.carousel-inner > .item > img{
+	width: 100%;
+}
+
+/* google map image */
+.widget_google_maps img{
+	width: 100%;
+}
+
+/* opentable widget */
+#OT_form .OT_day,#OT_form .OT_time,#OT_form .OT_party{
+	height: auto;
+	width: 161px;
+}
+
+#OT_form .OT_searchTimeField, #OT_form .OT_searchDateField, #OT_form .OT_searchPartyField{
+	width: 119px;
+}
+
+
+/* opentable bar */
+#opentablebar{
+	background-color: #fff;
+	position: relative;
+	border-bottom: 2px solid #c41200;
+	z-index:99999;
+	text-align: center;
+	top:0px;
+	width:100%;
+}
+
+#opentablebar-center{
+	margin: auto auto !important;
+	display: inline-block !important;
+}
+
+#opentablebar-center .OT_wrapper{
+	background-color: #F6F6F3;
+	border: 2px solid #42382c;
+}
+
+/* logo area */
+.logo_area{
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+	background: #fff;
+	border-radius: 5px;
+	max-width: 300px;
+	max-height: 300px;
+	margin-bottom: 15px;
+}
+
+.logo_top_bar{
+	background: #ededed;
+	opacity: 0.5;
+	padding: 5px 5px 7px;
+}
+
+.logo_placeholder{
+	max-height: 300px;
+    max-width: 300px;
+    min-height: 150px;
+    min-width: 200px;
+    padding: 5px;
+    display: block;
+}
+
+.logo-content{
+	text-align: center;
+}
+
+.editIcon{
+	background: none repeat scroll 0 0 #DDDDDD;
+    border-radius: 5px;
+    padding: 5px;
+    float: right;
+    margin-left: 5px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+}
+
+.editIcon:hover{
+	color: #000;
+	border: 1px solid #000;
+}
+
+.drop-image-area{
+	vertical-align: text-bottom;
+}
+
+.logo-content img{
+	width: 100%;
+}

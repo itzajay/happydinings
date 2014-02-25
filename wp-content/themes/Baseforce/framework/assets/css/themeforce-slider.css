@@ -1,0 +1,158 @@
+#tf-slider-list {
+    list-style: none;
+
+}
+
+#tf-slider-list li {
+    margin:10px 0px;
+    padding:10px;
+    border:1px #DFDFDF solid !important;
+    overflow:auto;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    width:680px;
+    cursor: default;
+}
+
+#tf-slider-list li h4 {
+    font-size:26px !important;
+    position:relative;
+}
+
+#tf-slider-list li .handle {
+    display:block !important;
+    background: transparent url('../images/row-resize-blue.png') top left no-repeat;
+    width:24px;
+    min-height:24px;
+    margin-bottom: 10px;
+    cursor: move;
+}
+
+#tf-slider-list .slider-controls {
+    float:left;
+    width:30px;
+    margin-right:3px;
+}
+
+#tf-slider-list .slider-thumbnail {
+    float:left;
+    border:1px #DFDFDF solid !important;
+    display:block;
+    width:628px;
+    height:100px;
+    margin-right:10px;
+}
+
+#tf-slider-list .slider-content {
+    position:absolute;
+    background:transparent;
+    width:360px;
+    right:34px;
+    top:34px;
+}
+
+#tf-slider-list .slider-content h3 {
+    margin-top:0px;
+    padding:0;
+    margin-bottom:0;
+    border:none;
+}
+
+#tf-slider-list .slider-content h3, #tf-slider-list .slider-content p {
+    text-shadow:0 2px #fff;
+}
+
+#tf-slider-list .slider-edit {
+    position:relative;
+    left:1px;
+    display:block;
+    cursor:pointer;cursor:hand;
+    margin-bottom: 10px;
+    width:24px;
+    height:24px;
+    background: transparent url('../images/slider-edit.png') top right no-repeat;
+}
+
+#tf-slider-list .slider-delete {
+    position:relative;
+    left:-2px;
+    display:block;
+    cursor:pointer;cursor:hand;
+    width:24px;
+    height:24px;
+    background: transparent url('../images/slider-delete.png') top right no-repeat;
+}
+
+#tf-slider-list .slider-content span {
+    display:inline;
+}
+
+#tf-slider-list .slider-content textarea, #tf-slider-list .slider-content input, #tf-slider-list .slider-content select {
+    width:360px;
+    margin:0;
+    padding:10px;
+}
+
+#tf-slider-list .ui-state-highlight {
+    height:102px;
+    background:#eee !important;
+    -webkit-box-shadow: inset 0px 1px 2px 1px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: inset 0px 1px 2px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0px 1px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+/*
+#add-tf-slider label {
+    padding:5px;
+    display:block;
+    float:left;
+    width:200px;
+    text-shadow:0 1px #fff;
+    color:#676767;
+}
+
+#add-tf-slider input, textarea, select {
+    padding:10px;
+    min-width:200px;
+}
+
+#add-tf-box {
+    border:1px #DFDFDF solid;
+    width:700px;
+    padding:10px;
+    background:#efefef;
+    margin-bottom:20px;
+}
+
+#add-tf-box strong {
+    display:block;
+    font-size:16px;
+    color:gray;
+    padding:10px 5px 20px;
+    border-bottom:1px solid #d3d3d3;
+    margin-bottom:20px;
+}
+
+#add-tf-box .input-row {
+    margin-bottom:10px;
+    display:block;
+}
+
+#add-tf-box .input-row span {
+    font-style:italic;
+    color:gray;
+    margin-top:5px;
+    margin-left:210px;
+    display:block;
+    font-size:11px;
+}
+
+#add-tf-box .required {
+    display:inline;
+    font-size:20px;
+    padding-left:5px;
+    color:#21759b;
+    line-height:10px;
+}
+*/

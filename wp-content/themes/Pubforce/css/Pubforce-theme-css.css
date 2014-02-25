@@ -1,0 +1,97 @@
+/*==========================================================================================
+	
+Colors generated here are pulled in from the 'Theme Options' within the Dashboard
+
+==========================================================================================*/
+
+
+		
+		.sec-footer-outer .sec-footer { color : #394831 } 
+	
+		
+		body,.openitem,input.tf-newsletter-link,.sf-menu li li,.sf-menu ul { background-color : #394831 } 
+	
+	
+
+		
+		#main H1,#main H2,#main H3,#main .posttitle a,.full-events .title .time,a.feat-events .time,.events-single-meta span { color : #131410 } 
+	
+		
+		#container,#papercurl,#footer,.sec-footer-outer, .mobile-phone { background-color : #131410 } 
+	
+		
+		input.tf-newsletter-link { border-color : #131410 } 
+	
+	
+
+		
+		.light-secondary,.openitem,#footer a,#sidebar-wrap a,#footer a,#sidebar-wrap a,#header-address,#sidebar-wrap h3,.events-widget .longdate,input.tf-newsletter-link,.footer-widget H3,.sec-footer-outer .sec-footer a,
+#sidebar-wrap .events-widget .eventitem a:hover { color : #ffd172 } 
+	
+		
+		.fs-tips-thumb,#box-thumbnails a { background-color : #ffd172 } 
+	
+		
+		#main-sidebar .widget H3,.footer-widget H3,div#fancy_outer div#fancy_inner,input.tf-newsletter-link:hover { border-color : #ffd172 } 
+	
+	
+
+		
+		#main a, .mobile-phone a { color : #456711 } 
+	
+		
+		.thumb, input.tf-newsletter-link,.fc th, .fc-state-default .fc-button-inner, .fc-button-prev, .fc-button-next { background-color : #456711 } 
+	
+		
+		.sf-menu ul li { border-color : #456711 } 
+	
+	
+
+		
+		.sf-menu a { color : #ffd172 } 
+	
+	
+
+                
+
+
+ul#twitter_update_list li {
+border-bottom: 1px dotted rgba(255, 209, 114,0.2);
+}
+
+#header-address, #header-address a {
+color:#ffffff;
+}
+
+
+.fc-widget-header,
+.fc-widget-content {
+    border-color: rgba(69, 103, 17,0.5);
+}
+
+.fc-state-highlight {
+    background-color: rgba(69, 103, 17,0.2);
+}
+
+.fc-event-skin {
+    color: #ffffff !important;
+    background-color: rgba(69, 103, 17,1);
+    
+}
+
+.fc-event-skin {
+    text-decoration:none !important;
+    text-shadow:none;
+}
+
+.fc-button.fc-state-disabled {
+    display:none;
+}
+
+.fc-other-month {
+    background-color: rgba(0,0,0,0.05);
+}
+
+#fancybox-content {
+    border-color:#456711 !important;
+}
